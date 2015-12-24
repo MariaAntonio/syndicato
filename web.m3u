@@ -1,4 +1,33 @@
-#EXTINF:0,SPORT TV 1 HD PT
-rtmp://area61.better-than.tv:1935/ANYTV_USR_SportTV_One/SportTV_One.sdp
-#EXTINF:0,SPORT TV 2 HD PT
-rtmp://area61.better-than.tv:1935/ANYTV_USR_SPORTTV2/SPORTTV2.sdp
+#EXTM3U
+#EXTINF:0,NPO 1 HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/688.m3u8
+#EXTINF:0,NPO 2 HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/687.m3u8
+#EXTINF:0,NPO 3 HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/686.m3u8
+#EXTINF:0,RTL 4
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/684.m3u8
+#EXTINF:0,RTL5 HD werkt soms
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/683.m3u8
+#EXTINF:0,SBS 6 HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/2935.m3u8
+#EXTINF:0,RTL 7 HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/682.m3u8
+#EXTINF:0,Veronica / Disney XD HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/2932.m3u8
+#EXTINF:0,NET 5 HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/689.m3u8
+#EXTINF:0,FOX
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/2931.m3u8
+#EXTINF:0,Ziggo Sport
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/437.m3u8
+#EXTINF:0,Fox Life HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/699.m3u8
+#EXTINF:0,SBS 9
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/434.m3u8
+#EXTINF:0,HBO 3 HD
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/693.m3u8
+#EXTINF:0,Telekids
+http://62.210.248.96:11000/live/jeffreycoumans@hotmail.com_neth/jeffreycoumans@hotmail.com_neth/435.m3u8
+
+
