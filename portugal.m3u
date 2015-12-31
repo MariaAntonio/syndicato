@@ -1,0 +1,267 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="0500" group-title="Português" tvg-logo="0500.png",[COLOR orange] RTP 1[/COLOR]
+http://wownet.ro/str/0500.m3u8|X-Forwarded-For=81.17.18.50
+#EXTINF:-1 tvg-id="0501" group-title="Português" tvg-logo="0501.png",[COLOR orange] RTP 2[/COLOR]
+http://wownet.ro/str/0501.m3u8|X-Forwarded-For=81.17.18.50
+#EXTINF:-1,[COLOR orange]RTP 3 (INFORMACAO)[/COLOR]
+http://wownet.ro/str/0510.m3u8|X-Forwarded-For=81.17.18.50
+#EXTINF:-1 tvg-id="0505" group-title="Português" tvg-logo="0505.png",[COLOR orange] RTP Africa[/COLOR]
+http://wownet.ro/str/0505.m3u8|X-Forwarded-For=81.17.18.50
+#EXTINF:-1 tvg-id="0506" group-title="Português" tvg-logo="0506.png",[COLOR orange] RTP Memoria[/COLOR]
+http://wownet.ro/str/0506.m3u8|X-Forwarded-For=81.17.18.50
+#EXTINF:-1 tvg-id="0508" group-title="Português" tvg-logo="0508.png",[COLOR orange] RTP Acores[/COLOR]
+http://wownet.ro/str/0508.m3u8|X-Forwarded-For=81.17.18.50
+#EXTINF:-1 tvg-id="0509" group-title="Português" tvg-logo="0509.png",[COLOR orange] RTP Internacional[/COLOR]
+http://wownet.ro/str/0509.m3u8|X-Forwarded-For=81.17.18.50
+
+#EXTINF:-1 tvg-id="RTP 1" tvg-logo="RTP1.png" group-title="Canais Portugal",[I][B]RTP 1[/B][/I]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtp1.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTP 2" tvg-logo="RTP2.png" group-title="Canais Portugal",[I][B]RTP 2[/B][/I]  
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtp2.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTPAcores.pt" tvg-logo="rtp_açores.png",[I][B]RTP ACORES[/B][/I]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpacores.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTPAfrica.pt" tvg-logo="rtp_africa.png",[I][B]RTP AFRICA[/B][/I]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTPMadeira.pt" tvg-logo="RTP Madeira.png",[I][B]RTP MADEIRA[/B][/I]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTP MEMORIA" tvg-logo="RTP MEMORIA.png" group-title="Canais Portugal",[I][B]RTP MEMORIA[/B][/I]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/rtpmem_5ch80h264.stream/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="RTP INTERNACIONAL" tvg-logo="RTP INTERNACIONAL" group-title="Canais Portugal",[I][B]RTP INTERNACIONAL[/B][/I]
+http://rtp-pull-live.hls.adaptive.level3.net:80/liverepeater/rtpi_5ch120h264.stream/livestream.m3u8
+
+#EXTINF:-1,[I][B]SIC [/B][/I]
+http://213.13.26.11:1935/live/sic/livestream.m3u8
+
+#EXTINF:-1,[I][B]SIC (opc2)[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.135:9036
+
+#EXTINF:-1,[I][B]SIC MULHER[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.136:9093
+
+#EXTINF:-1,[I][B]SIC RADICAL[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.135:9030
+
+#EXTINF:-1,[I][B]TVI (HQ)[/B][/I]
+http://video-live.iol.pt:1935/live_tvi/smil:LIVE_TVI/playlist.m3u8
+
+#EXTINF:-1,[I][B]TVI FICCAO[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.135:9117
+
+#EXTINF:-1,[I][B]PORTO CANAL[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.135:9029
+
+#EXTINF:-1,[I][B]TVI REALITY - A QUINTA[/B][/I]
+http://62.210.82.241:1935/liverepeat/TVIReality24/live.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PORTUGAL",[I][B]TVI REALITY (A QUINTA)[/B][/I] opt2
+rtmp://62.210.88.232:1935/liverepeat?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNi8yMDE1IDI6MDc6MzAgUE0maGFzaF92YWx1ZT1tSEpPOXptWGRwZDFjTzVzd0tFQWtnPT0mdmFsaWRtaW51dGVzPTMwMA==/TVIReality24 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=TVIReality24&vw=550&vh=430
+
+#EXTINF:-1,[I][B]RECORD[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.135:9074
+
+#EXTINF:-1,[I][B]GINX[/B][/I]
+http://204.107.26.252:1935/live/796.high.stream/playlist.m3u8
+
+#EXTINF:-1,[I][B]CBS REALLTY[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.135:9004
+
+#EXTINF:-1,[COLOR yellow]ANIMACAO[/COLOR] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:-1,[I][B]CANAL PANDA[/B][/I]
+http://31.177.62.135:9046
+
+#EXTINF:-1,[I][B]DISNEY CHANNEL[/B][/I]
+http://31.177.62.135:9102
+
+#EXTINF:-1,[I][B]DISNEY JUNIOR[/B][/I]
+http://31.177.62.135:9026
+
+#EXTINF:-1,[I][B]CARTOON NETWORK[/B][/I]
+http://31.177.62.135:9018
+
+#EXTINF:-1, [I][B]South Park - Uncensored (24/7) [/B][/I] [COLOR orange][B](ingles)[/B][/COLOR]
+http://veetle.com/index.php/hls/streamMbrFast/541c316fe8423_/stream.m3u8
+ 
+#EXTINF:-1, [I][B]Simpsons (24/7) [/B][/I] [COLOR orange][B](ingles)[/B][/COLOR]
+http://veetle.com/index.php/hls/streamMbrFast/52dada61bdf13_/stream.m3u8
+
+#EXTINF:-1 tvg-logo="Dragon-Ball-Z-logo.jpg" tvg-logo="http://logos.iptvglobal.com.br/Dragon-Ball-Z-logo.jpg" group-title="Desenhos 24 horas", [I][B]Dragon Ball Z[/I][/B]
+rtmp://208.53.180.242/ctv/ playpath=dbz swfUrl=http://www.canaistv.net/player.swf pageUrl=http://www.canaistv.net/tvamigos/two.html live=1
+
+#EXTINF:-1 tvg-logo="Tom%20e%20Jerry.jpg" tvg-logo="http://logos.iptvglobal.com.br/Tom%20e%20Jerry.jpg" group-title="Desenhos 24 horas", [I][B]Tom e Jerry[/I][/B]
+rtmp://208.53.180.242/ctv playpath=tom swfUrl=http://www.canaistv.net/player.swf pageUrl=http://www.canaistv.net/tvamigos/two.html live=1
+
+#EXTINF:-1,[COLOR yellow]DESPORTO NACIONAL [/COLOR] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:-1 tvg-id="" tvg-logo="sport_tv_americas.png" group-title=“DESPORTO”, [I][B]SPORT TV AMÉRICAS [/B][/I]
+http://sporttvamericas-i.akamaihd.net:80/hls/live/227427/SportTVAmericas/master1300kbps.m3u8
+
+#EXTINF:-1,[I][B]SPORT TV 1[/B][/I]
+http://31.177.62.135:9045
+
+#EXTINF:-1,[I][B]SPORT TV 2[/B][/I]
+http://31.177.62.135:9034
+
+#EXTINF:-1,[I][B]SPORT TV 3[/B][/I]
+http://31.177.62.135:9035
+
+#EXTINF:-1,[I][B]SPORT TV 4[/B][/I]
+http://31.177.62.135:9043
+
+#EXTINF:-1,[I][B]SPORT TV 5[/B][/I]
+http://31.177.62.135:9024
+
+#EXTINF:-1, [I][B]Benfica TV 1 [/B][/I]
+http://31.177.62.135:9059
+
+#EXTINF:-1, [I][B]Telekanal Futbol [COLOR orange](campeonato portugues)[/COLOR][/B][/I]
+http://btv-net.mediacdn.ru/TVB8/football/playlist.m3u8
+
+#EXTINF:-1, [I][B]Telekanal Futbol (opc2) [COLOR orange](campeonato portugues)[/COLOR][/B][/I]
+http://win.cdn.bonus-tv.ru/TVB8/football/playlist.m3u8
+
+#EXTINF:-1, [I][B]CNOPT [COLOR orange](alguns jogos da liga)[/COLOR][/B][/I]
+http://3.hls.bolshoe.tv/2/streaming/sport2/tvrec/playlist.m3u8
+
+#EXTINF:-1, [I][B]EUROSPORT 1[/B][/I]
+http://31.177.62.135:9058
+
+#EXTINF:-1, [I][B]FUEL TV[/B][/I]
+http://31.177.62.135:9019
+
+#EXTINF:-1 tvg-id="EuroSport 2" group-title="PORTUGAL" tvg-logo="Eurosport 2.png" tvg-name="Eurosport",[I][B]EUROSPORT 2 SD [COLOR orange](qualidade baixa)[/COLOR] [/B][/I]
+rtmp://198.144.153.145:443/flash playpath=21578?MTQ0MjQyMTU2MDtiNGExNzYwNjQyMWJjYWNkM2UyNWU1MmVhYzcwN2E2YQ== swfUrl=http://static3.sawlive.tv/player.swf live=1 conn=S:OK pageUrl=http://www.sawlive.tv/embed/watch/I1NDE2NGU5ZDNiZTYzMmFlYWU3Mjcy/YTQ0NHJmOjNmYzZlNzJkMjU0YzVhNTZmOWFhMDhiNDZkODZkMzM0OmIyZTdkZjEzNW/ARNO timeout=15 conn=S:OK –live
+
+#EXTINF:-1, [I][B]CHELSEA TV[/B][/I]
+http://31.177.62.135:9049
+
+#EXTINF:-1, [I][B]REAL MADRID TV[/B][/I]
+http://31.177.62.137:9067
+
+#EXTINF:-1, [I][B]A BOLA TV[/B][/I]
+http://31.177.62.135:9038
+
+
+#EXTINF:-1,[COLOR yellow] CINEMA/SERIES [/COLOR] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:-1, [I][B]TV CINE 1[/B][/I]
+http://31.177.62.135:9099
+
+#EXTINF:-1, [I][B]TV CINE 2[/B][/I]
+http://31.177.62.135:9114
+
+#EXTINF:-1, [I][B]TV CINE 3[/B][/I]
+http://31.177.62.135:9090
+
+#EXTINF:-1, [I][B]TV CINE 4[/B][/I]
+http://31.177.62.135:9115
+
+#EXTINF:-1, [I][B]TV SERIES[/B][/I]
+http://31.177.62.135:9013
+
+#EXTINF:-1, [I][B]CINEMUNDO[/B][/I]
+http://31.177.62.135:9008
+
+#EXTINF:-1, [I][B]SYFY[/B][/I]
+http://31.177.62.135:9101
+
+#EXTINF:-1, [I][B]AMC[/B][/I]
+http://31.177.62.135:9010
+
+#EXTINF:-1, [I][B]AXN[/B][/I]
+http://31.177.62.137:9072
+
+#EXTINF:-1, [I][B]AXN BLACK HD[/B][/I]
+http://31.177.62.135:9015
+
+#EXTINF:-1, [I][B]AXN WHITE HD[/B][/I]
+http://31.177.62.135:9016
+
+#EXTINF:-1, [I][B]FOX HD[/B][/I]
+http://31.177.62.137:9073
+
+#EXTINF:-1, [I][B]FOX COMEDY[/B][/I]
+http://31.177.62.135:9028
+
+#EXTINF:-1, [I][B]A&E[/B][/I]
+http://31.177.62.135:9022
+
+
+
+#EXTINF:-1,[COLOR yellow] MUSICA [/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:-1, [I][B]VH1[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.135:9023
+
+
+
+#EXTINF:-1,[COLOR yellow] DOCUMENTARIOS [/COLOR] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:0, [I][B]HISTORIA[/B][/I]
+http://31.177.62.135:9009
+
+#EXTINF:0, [I][B]NAT GEO WILD[/B][/I]
+http://31.177.62.135:9057
+
+#EXTINF:0, [I][B]NAT GEO HD[/B][/I]
+http://31.177.62.135:9105
+
+#EXTINF:0, [I][B]Mute TV 3D[/B][/I]
+http://streamer1.cdn.3dsmart.tv/hls/mutetv.tv.3d/stream.m3u8
+
+#EXTINF:0, [I][B]Mute TV HD[/B][/I]
+http://streamer1.cdn.3dsmart.tv/hls/mutetv.tv.hd/stream.m3u8
+
+
+#EXTINF:-1,[COLOR yellow] ADULTOS (+18) [/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:0, [I][B]VENUS[/B][/I] [COLOR orange][B](com algum buffer)[/B][/COLOR]
+http://31.177.62.135:9116
+
+
+ 
+#EXTINF:-1,[COLOR yellow] NOTICIAS [/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:-1 tvg-id="Euronews.nws" tvg-logo="Euronews.png" group-title=PORTUGAL, EURONEWS
+rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/pt_vidan750_rtp.sdp
+
+#EXTINF:-1 tvg-id="sicnoticias.pt" tvg-logo="sic_noticias.png", SIC NOTICIAS
+http://213.13.26.7:1936/live/_definst_/sicnoticias/playlist.m3u8
+
+#EXTINF:-1 tvg-id="sicnoticias.pt" tvg-logo="sic_noticias.png", SIC NOTICIAS (opc2) [COLOR orange](com algum buffer)[/COLOR]
+http://31.177.62.135:9096
+
+#EXTINF:-1, TVI 24 [COLOR orange](com algum buffer)[/COLOR]
+http://31.177.62.135:9072
+
+#EXTINF:-1, TVI 24 (stream 2)
+http://video-live.iol.pt:1935/live_tvi24/smil:LIVE_TVI24/chunklist_w272103575_b814000.m3u8
+
+#EXTINF:-1, RTP 3
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/rtpn_5ch64h264.stream/chunklist.m3u8
+
+#EXTINF:0 tvg-id="CMTV.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uvqwuu1436843714.png" audio-track="pt" group title="Portugal", CMTV [SD]
+rtmp://178.162.195.40/loadbalance app=loadbalance?wmsAuthSign=/ swfUrl=http://pxstream.tv/player510.swf pageUrl=http://pxstream.tv/embedrouter.php?file=cmtv22ed&width=555&height=435 playpath=84792152861424662534 token=#ed%h0#w@1 live=1 swfVfy=1 timeout=15
+
+
+#EXTINF:-1, ECONOMICO TV
+http://wownet.ro/str/0511.m3u8|X-Forwarded-For=81.17.18.50
+
+#EXTINF:-1 tvg-id="EconomicaTV.pt" tvg-logo="etv_pt.png", ECONOMICO TV (stream 2)
+http://213.13.26.41:1935/live/etv_direto/playlist.m3u8
+
+#EXTINF:-1, RECORD NEWS [COLOR orange](com algum buffer)[/COLOR]
+http://31.177.62.135:9097
